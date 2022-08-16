@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.06518265.css",
+    "main.js": "/static/js/main.42681c62.js",
+    "static/js/787.c6006e9a.chunk.js": "/static/js/787.c6006e9a.chunk.js",
+    "static/media/home.webp": "/static/media/home.5b16fe0d35c7f59c09f6.webp",
+    "static/media/banner.webp": "/static/media/banner.22bec74277b2db1be447.webp",
+    "static/media/inst1.png": "/static/media/inst1.878529141397a056c8a1.png",
+    "static/media/contactUs.webp": "/static/media/contactUs.a8dad5e1ae960f89c7fe.webp",
+    "static/media/401.webp": "/static/media/401.ac0ea092904595627950.webp",
+    "static/media/404.webp": "/static/media/404.028756a97cfcb5b36233.webp",
+    "static/media/virtual-class.png": "/static/media/virtual-class.cb3c98f4893bf20bf282.png",
+    "static/media/reading-book.png": "/static/media/reading-book.2fce72920c8f6bfa125a.png",
+    "static/media/monitoring.png": "/static/media/monitoring.b8ad20dfae25729f0778.png",
+    "static/media/logo.png": "/static/media/logo.f9fd39b10ac64d44b20e.png",
+    "static/media/download.png": "/static/media/download.d8fc456fb678da007032.png",
+    "static/media/mr1.jpg": "/static/media/mr1.117000dad120b8bac9d9.jpg",
+    "static/media/st1.jpg": "/static/media/st1.de3f12988004fe5e6a21.jpg",
+    "static/media/student.webp": "/static/media/student.2c18571c45ead8e3904f.webp",
+    "static/media/online-lesson.png": "/static/media/online-lesson.51f8d182bf430c3a9808.png",
+    "static/media/mr2.jpg": "/static/media/mr2.14055037d5a3c1f66af8.jpg",
+    "static/media/phone.webp": "/static/media/phone.617fcf9f7f1e40776a59.webp",
+    "static/media/institute.webp": "/static/media/institute.83a7f5a713b89100da75.webp",
+    "static/media/teacher.webp": "/static/media/teacher.35e6f3e34dae03850883.webp",
+    "static/media/parent.webp": "/static/media/parent.a323b6122d58e5686263.webp",
+    "static/media/location.webp": "/static/media/location.9d45040895b37a1a45f8.webp",
+    "static/media/email.webp": "/static/media/email.fdd52e8e211bc91d2782.webp",
+    "index.html": "/index.html",
+    "main.06518265.css.map": "/static/css/main.06518265.css.map",
+    "main.42681c62.js.map": "/static/js/main.42681c62.js.map",
+    "787.c6006e9a.chunk.js.map": "/static/js/787.c6006e9a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06518265.css",
+    "static/js/main.42681c62.js"
+  ]
+}
