@@ -14,7 +14,7 @@ const Home = () => {
             <NavBar/>
             <Row className='p-0 m-0'>
                 <Banner/>
-                <AboutUs/>
+                {/* <AboutUs/> */}
                 <Pricing/>
                 <DownloadApp/>
                 <ContactUs/>
