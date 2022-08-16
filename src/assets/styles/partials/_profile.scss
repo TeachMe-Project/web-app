@@ -1,0 +1,26 @@
+@import "../variables/variables";
+
+.profile{
+  height: 90vh;
+
+  &-header{
+    color: $header-primary;
+  }
+}
+
+.spinner-container{
+  left:45%;
+}
+
+.profile-edit-btn{
+  &:hover{
+    background: #1e90ff;
+    outline-style: hidden;
+    border: 2px solid #1e90ff;
+    box-shadow: none;
+  }
+  &:focus,&:active{
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}

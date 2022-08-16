@@ -1,0 +1,129 @@
+@import "../variables/variables";
+@import "./progressBar";
+
+.Signup-Container {
+  height: fit-content;
+  font-family: 'Poppins', sans-serif;
+
+  .Signup-Image {
+    margin: 0 auto 0 auto;
+
+    @media (max-width: $md-screen-size) {
+      height: 400px;
+      width: auto;
+    }
+    @media (max-width: $xs-screen-size) {
+      margin-top: 20px;
+      height: auto;
+    }
+  }
+
+  .Signup {
+    border-radius: 20px;
+    height: max-content;
+
+    .Signup-Complete h1 {
+      color: #1e90ff;
+    }
+
+
+    .form-label {
+      margin-bottom: 0.2rem;
+      padding-left: 1rem;
+    }
+
+    .form-select {
+      border-radius: 15px;
+    }
+
+    .invalid-feedback {
+      color: #e74c3c;
+      padding-left: 1rem;
+    }
+
+    .form-control.is-invalid {
+      border: 1px solid #e74c3c;
+    }
+
+    @media (max-width: $md-screen-size) {
+      box-shadow: none;
+      height: fit-content;
+    }
+
+    .signup-header {
+      color: $font-grey-color;
+      font-size: 2.4rem;
+      font-weight: 600;
+
+      @media (max-width: $xs-screen-size) {
+        font-size: 30px;
+      }
+    }
+
+  }
+
+}
+
+.nextBtn {
+  background-color: #1e90ff;
+  border-radius: 20px;
+  border: 2px solid #1e90ff;
+  font-weight: 600;
+  color: #fff;
+  width: fit-content;
+
+  &:hover,&:active,&:focus {
+    background-color: #fff;
+    color: #1e90ff;
+    border: 2px solid #1e90ff;
+  }
+
+  &:focus,&:active{
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
+
+.nextBtn-outline {
+  background-color: #fff;
+  color: #1e90ff;
+  border: 2px solid #1e90ff;
+  width: fit-content;
+  border-radius: 20px;
+  padding: 2px 5px 2px 5px;
+
+
+  &:hover,&:active,&:focus {
+    background-color: #1e90ff;
+    border: 2px solid #1e90ff;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  &:focus,&:active{
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
+
+.success-outline{
+  background-color: #fff;
+  color: #23f15b ;
+  border: 2px solid #23f15b ;
+  width: fit-content;
+  border-radius: 20px;
+  padding: 2px 5px 2px 5px;
+
+
+  &:hover,&:active,&:focus {
+    background-color: #23f15b;
+    border: 2px solid #23f15b;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  &:focus,&:active{
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}

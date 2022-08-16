@@ -1,0 +1,16 @@
+@import "../variables/variables";
+
+.Signup-Complete {
+  h1 {
+    color: $primary;
+    font-weight: 600;
+  }
+
+  h5, h4 {
+    color: $font-grey-color;
+  }
+
+  button{
+    border-radius: 20px;
+  }
+}

@@ -1,0 +1,53 @@
+@import "../variables/variables";
+
+.Notifications {
+  .PanelBody {
+
+    .accordion {
+
+      .accordion-item {
+        border-radius: 15px;
+        background-color: #ffffff;
+        border: 1px solid #ddf3fa;
+
+        .accordion-header {
+          .accordion-button {
+            color: $header-primary;
+            font-weight: 600;
+            border-radius: 15px;
+          }
+
+          .accordion-button:hover {
+            background-color: #ddf3fa;
+            color: #1e90ff;
+          }
+
+          .accordion-button:not(.collapsed) {
+            background-color: #ddf3fa;
+            color: #1e90ff;
+            border-radius: 15px;
+          }
+        }
+
+        .accordion-body {
+          .description {
+            color: #012250;
+            padding-bottom: 0.8rem;
+          }
+
+          .date {
+            color: $header-primary;
+            text-align: right;
+            font-weight: 600;
+          }
+
+          .time {
+            color: $header-primary;
+            text-align: right;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}

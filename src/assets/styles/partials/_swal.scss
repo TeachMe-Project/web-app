@@ -1,0 +1,39 @@
+.swal-button {
+  padding: 3px 19px;
+  border-radius: 10px;
+  background-color: #23f15b;
+  font-size: 12px;
+  border: 1px solid #23f15b;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+
+  &:not([disabled]):hover{
+    background: #ffffff;
+    color: #23f15b;
+  }
+}
+
+
+
+.swal-overlay {
+  background-color: transparent;
+}
+
+.swal-button--danger{
+  background: #2ed573;
+}
+.swal-button--cancel{
+  border: 1px solid #ee5253;
+  color:#ee5253;
+  background: #ffffff;
+
+  &:not([disabled]):hover{
+    color: white;
+    background: #ee5253;
+  }
+}
+
+.swal-modal {
+  background-color: #f0f0f0;
+  border: 3px solid white;
+  border-radius: 20px;
+}

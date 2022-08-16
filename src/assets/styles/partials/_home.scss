@@ -1,0 +1,120 @@
+@import "./../variables/variables";
+body {
+  fontFamily: "'Poppins', sans-serif";
+}
+.container-fluid{
+  width:98%;
+}
+.banner {
+  fontFamily: "'Poppins', sans-serif";
+
+  .banner-header {
+    font-size: 50px;
+    font-weight:600;
+    color:#2c3e50;
+    margin-bottom:2.5rem;
+
+    @media (max-width: $xs-screen-size) {
+      font-size: 30px;
+    }
+  }
+  .banner-text{
+    font-size: 1rem;
+    color:#95a5a6;
+    
+    @media (max-width: $xs-screen-size) {
+      text-align: justify;
+    }
+  }
+
+}
+
+.about-us{
+  fontFamily: "'Poppins', sans-serif";
+
+  .about-us-header{
+    font-size: 60px;
+    margin-top: 80px;
+    color:#2c3e50;
+
+    @media (max-width: $md-screen-size) {
+      margin-top: 20px;
+      font-size: 50px;
+    }
+
+    @media (max-width: $xs-screen-size) {
+      font-size: 40px;
+    }
+  }
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+  font-weight:500;
+  color:#95a5a6;
+  font-size:1.2rem;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color:#2c3e50;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  color:#2c3e50;
+}
+.LoginBtn{
+  background-color:#fff;
+  color:#2c3e50;
+  border:none;
+  font-weight:600;
+  font-size:1rem;
+  line-height:1.4rem;
+
+}
+.LoginBtn:hover {
+  color:#1e90ff;
+  background-color:#fff;
+  border: 1px solid #1e90ff;
+}
+.SignupBtn{
+  background-color:#fff;
+  color:#1e90ff;
+  border: 1px solid #1e90ff;
+  font-weight:600;
+  font-size:1rem;
+  line-height:1.4rem;
+}
+.SignupBtn:hover {
+  background-color:#1e90ff;
+  color:#fff;
+  border: 1px solid #1e90ff;
+}
+.GetStartedBtn{
+  width:150px;
+  background-color: #012250;
+  color:#fff;
+  border:2px solid #012250;
+  border-radius: 30px;
+}
+.GetStartedBtn:hover{
+  border:2px solid #012250;
+  color:#012250;
+  background-color: #fff;
+}
+.form-label{
+  font-weight: 600;
+  color:#2c3e50;
+  font-size:1rem;
+}
+.form-control {
+border-radius:15px;
+}
+.card{
+  border-radius:15px;
+}
+.card-body{
+  color:#2c3e50;
+}
+
+.contact-card-img{
+  width: 50px;
+  height: 70px;
+}

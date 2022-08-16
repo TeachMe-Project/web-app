@@ -1,0 +1,62 @@
+@import "../variables/variables";
+
+// Progressbar
+.progressbar {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  counter-reset: step;
+  margin: 10px 0;
+
+  // in-active circles
+  .progress-step {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid #1e90ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1e90ff;
+    z-index: 2;
+  }
+
+  // circle
+  .progress-step::before {
+    counter-increment: step;
+    content: counter(step);
+    //color: $primary-color;
+  }
+
+  // top text
+  .progress-step::after {
+    content: attr(data-title);
+    position: absolute;
+    top: calc(-100% + 10px);
+    font-size: 16px;
+    color: #1e90ff;
+    //font-weight: $font-weight-heavy;
+  }
+
+  // active circle
+  .progress-step-active {
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+  }
+
+}
+
+// progress bar line
+.progressbar::before,
+.progress {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 3px;
+  width: 100%;
+  background-color: #1e90ff;
+  z-index: 1;
+}

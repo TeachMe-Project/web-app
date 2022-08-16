@@ -1,0 +1,21 @@
+.pro-icon{
+  font-size: 20px;
+}
+  .pro-item-content{
+    font-size: 20px;
+  }
+
+.pro-sidebar.md.toggled .overlay {
+  display: block;
+  height: 90vh;
+  /* margin-top: 9vh; */
+  background: #5b5b5b;
+  position: absolute;
+  bottom: 0;
+}
+
+span.pro-icon {
+  background: white;
+  border-radius: 50%;
+  color: #012250;
+}
